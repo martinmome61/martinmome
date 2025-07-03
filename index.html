@@ -1,0 +1,45 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opciones</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+        }
+        .options-container {
+            text-align: center;
+            border: 2px solid red;
+            padding: 20px;
+            background-color: white;
+            width: 90%;
+            max-width: 400px;
+        }
+        .options-container h1 {
+            color: red;
+        }
+        .options-container button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="options-container">
+        <h1>Opciones</h1>
+        <button onclick="window.location.href='captar_datos.html'">Captar Datos</button>
+        <button onclick="window.location.href='listar_datos.html'">Listar Datos</button>
+        <button onclick="window.location.href='buscar_datos.html'">Buscar Datos</button>
+    </div>
+</body>
+</html>
